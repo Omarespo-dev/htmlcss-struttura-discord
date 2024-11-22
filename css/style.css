@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: lightcyan;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    font-size: 20px;
+    gap: 20px;
+    padding-top: 3%;
+    align-items: stretch;
+    
+}
+
+.orange{
+    background-color: orange;
+}
+
+
+.logo{
+    background-color: orange;
+    
+}
+
+
+.container-jumbo{
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    justify-content: center;
+    background-color: blue;
+}
+
+.jumbotron{
+    flex-basis: 60%;
+    background-color: deeppink;
+    margin:50px;
+    border: 3px dotted black;
+}
+
+
