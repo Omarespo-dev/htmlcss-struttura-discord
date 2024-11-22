@@ -43,7 +43,7 @@ header{
 .jumbotron{
     flex-basis: 60%;
     background-color: deeppink;
-    margin:50px;
+    margin: 50px;
     border: 3px dotted black;
 }
 
@@ -54,13 +54,14 @@ header{
     flex-direction: row;
     height: 500px;
     justify-content: center;
+    
 }
 
 .azure{
     background-color: deepskyblue;
     height: 450px;
     flex-basis: 40%;
-    margin-top: 35px;
+    margin-top: 30px;
     border: 3px dotted black;
 }
 
@@ -68,7 +69,7 @@ header{
     background-color: violet;
     height: 450px;
     flex-basis: 30%;
-    margin-top: 35px;
+    margin-top: 30px;
     border: 3px dotted black;
 }
 
@@ -80,13 +81,14 @@ header{
     height: 500px;
     justify-content: center;
     background-color: darkgrey;
+    
 }
 
 .azure-inverse{
     background-color: deepskyblue;
     height: 450px;
     flex-basis: 40%;
-    margin-top: 35px;
+    margin-top: 30px;
     border: 3px dotted black;
 }
 
@@ -94,7 +96,7 @@ header{
     background-color: violet;
     height: 450px;
     flex-basis: 30%;
-    margin-top: 35px;
+    margin-top: 30px;
     border: 3px dotted black;
     
 }
@@ -104,16 +106,116 @@ header{
 .container-quattro{
     display: flex;
     flex-direction: row;
-    height: 600px;
+    height: 700px;
     background-color: darkgray;
     justify-content: center;
+    
 }
 
 .green{
     background-color: green;
     flex-basis: 70%;
-    margin-top: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border: 3px dotted black;
     
+}
+
+/* INIZIO PARTE Footer */
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
     
+    
+}
+
+.salmon{
+    background-color: salmon;
+    flex-basis: 25%;
+    border: 3px dotted black;
+    margin-top: 10px;
+}
+
+.seagreen{
+    background-color: lightseagreen;
+    flex-basis: 12%;
+    border: 2px dotted white;
+    margin-top: 10px;
+    
+}
+
+
+/*  PARTE 2 Footer */
+
+.container-logo-bottone{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: black;
+    height: 250px;
+    align-items: center;
+    
+    
+}
+.item-logo-bottone{
+    background-color: aqua;
+    flex-basis: 25%;
+    width: 73%;
+    text-align: left;
+    
+}
+
+
+.logo-due{
+    padding: 2px;
+    background-color: salmon;
+    margin-top: 17px;
+    display: inline-block;
+    border: 2px dotted black;
+    
+}
+
+
+
+
+.container-botton{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 250px;
+    align-items: flex-end
+    
+}
+
+
+
+.container-botton{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: black;
+    height: 250px;
+    align-items: flex-end
+}
+
+
+.bottone-due {
+    padding: 2px;
+    background-color: salmon;
+    margin-top: 20px;
+    border: 2px dotted black;
+}
+
+
+
+
+
+
+
+
+.riga{
+    border-bottom: solid 3px red;
+    bottom
 }
