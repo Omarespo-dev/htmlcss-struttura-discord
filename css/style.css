@@ -19,29 +19,38 @@ header{
     flex-direction: row;
     height: 50px;
     font-size: 20px;
-    gap:500px;
     background-color: orange;
-    border: 3px dotted black;
+    border: 2px dotted black;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 70%;
 }
 
 .link{
     background-color: orange;
     margin-top: 10px;
-    
+    flex-basis: 70%;
+    text-align: center;
 
  }
 
  .logo{
     background-color: orange; 
-    margin-top: 10px;
     padding-left: 10px;
+    padding-top: 10px;
+    border: 2px dotted black;
+    flex-basis: 20%;
+    text-align: start;
 }
 
 .login{
     background-color: orange;
     text-align: end;
-    margin-top: 10px;
     padding-right: 10px;
+    flex-basis: 20%;
+    border: 2px dotted black;
+    height: 48px;
+    padding-top: 10px;
 }
 /* INIZIO PARTE MAIN CON JUMBO */
 .container-jumbo{
@@ -155,7 +164,7 @@ header{
 .seagreen{
     background-color: lightseagreen;
     flex-basis: 13%;
-    border: 2px dotted white;
+    border: 2px dotted black;
     margin-top: 10px;
     
 }

@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: rgba(37,94,233,255);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgba(37,94,233,255);
+    /* border: 2px dotted black; */
+    text-align: center;
+    justify-content: center;
+    flex-basis: 70%;
+    color: aliceblue;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(37,94,233,255);
+    margin-top: 10px;
+    flex-basis: 70%;
+    text-align: center;
+    
+
+ }
+
+ .logo{
+    background-color: rgba(37,94,233,255);
+    padding-left: 10px;
+    padding-top: 5px;
+    /* border: 2px dotted black; */
+    flex-basis: 20%;
+    text-align: start;
+}
+
+.login{
+    background-color:rgba(37,94,233,255);
+    text-align: end;
+    padding-right: 10px;
+    flex-basis: 20%;
+    /* border: 2px dotted black; */
+    height: 48px;
+    padding-top: 0px;
+    
+}
+
+#login-button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 9999px;
+    border-style: none;
+    border-color: white;
+    cursor: pointer;
+    
+    
+}
+/* INIZIO PARTE MAIN CON JUMBO */
+.container-jumbo{
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    justify-content: center;
+    /* background-color: red; */
+    
+    
+    
+}
+
+.background-image{
+    background-image: url(../img/jumbo.png);
+    background-size: cover; /* Riempi l'intero contenitore mantenendo le proporzioni */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+}
+
+.jumbotron{
+    flex-basis: 60%;
+    /* background-color: deeppink; */
+    margin: 50px;
+    border: 3px none black;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 60px;
+    
+}
+
+/* PARTE SCRITTA JUMBOTRON */
+#titolo-jumbo{
+    font-size: 60px;
+    
+}
+
+.paragrafo-jumbo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    width: 65%;
+    margin-left: 15%;
+}
+
+
+
+.scarica-mac{
+    text-align: center;
+    display: inline-block;
+}
+#scarica-mac1{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 9999px;
+    border-style: none;
+    border-color: white;
+    cursor: pointer;
+}
+
+.apri-discord{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+#apri-discord1{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 9999px;
+    border-style: none;
+    border-color: white;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+
+/* INIZIO PARTE 2 MAIN AZURE E PINK */
+
+.container-due{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: center;
+    
+}
+
+.azure{
+    /* background-color: deepskyblue; */
+    height: 450px;
+    flex-basis: 40%;
+    margin-top: 50px;
+    /* border: 3px dotted black; */
+    background-image: url(../img/item1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 80px;
+    
+}
+
+.pink{
+    /* background-color: violet; */
+    height: 450px;
+    flex-basis: 30%;
+    margin-top: 50px;
+     /* border: 3px dotted black; */
+}
+
+.un-luogo{
+    font-size: 40px;
+    width: 52%;
+    text-align: start;
+    margin-top: 40px;
+}
+
+.server-discord{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 60%;
+}
+
+/* INIZIO PARTE 3 MAIN AZURE-inverse E PINK-inverse */
+
+.container-tre{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 500px;
+    justify-content: center;
+    background-color: darkgrey;
+    /* background-image: url(../img/wave.svg); */
+    
+}
+
+.wave-background{
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    
+}
+
+
+.azure-inverse{
+    /* background-color: deepskyblue; */
+    height: 450px;
+    flex-basis: 40%;
+    margin-top: 30px;
+    border: 3px dotted black;
+}
+
+.pink-inverse{
+    /* background-color: violet; */
+    height: 450px;
+    flex-basis: 30%;
+    margin-top: 30px;
+    border: 3px dotted black;
+    
+}
+    /* PARTE MAIN CON CONTAINER 4 */
+.container-four{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: center;
+    
+}
+
+.azure-four{
+    background-color: deepskyblue;
+    height: 450px;
+    flex-basis: 40%;
+    margin-top: 50px;
+    border: 3px dotted black;
+    /* background-image: url(../img/item1.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-right: 80px; */
+    
+}
+
+.pink-four{
+    background-color: violet;
+    height: 450px;
+    flex-basis: 30%;
+    margin-top: 50px;
+     border: 3px dotted black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  MAIN Green */
+
+.container-cinque{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    background-color: darkgray;
+    justify-content: center;
+    
+}
+
+.green{
+    background-color: green;
+    flex-basis: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px dotted black;
+    
+}
+
+/* INIZIO PARTE Footer */
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+    
+    
+}
+
+.salmon{
+    background-color: salmon;
+    flex-basis: 18%;
+    border: 3px dotted black;
+    margin-top: 10px;
+}
+
+.seagreen{
+    background-color: lightseagreen;
+    flex-basis: 13%;
+    border: 2px dotted black;
+    margin-top: 10px;
+    
+}
+
+
+/*  PARTE 2 Footer */
+
+.container-logo-bottone{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 275px;
+    justify-content: center;
+    
+    /* justify-content: center; */
+    
+    
+}
+.item-logo-bottone{
+    background-color:aqua;
+    flex-basis: 70%;
+    width: 70%;
+    margin-top: 10%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90%;
+    
+}   
+
+.logo-due{
+    padding: 2px;
+    background-color: salmon;
+    margin-top: 25px;
+    border: 2px dotted black;
+    height: 30px;
+
+}
+
+.bottone-due{
+    /* padding: 2px; */
+    background-color: salmon;
+    margin-top: 25px;
+    border: 2px dotted black;
+    width: 10%;
+    height: 30px;
+    text-align: end;
+    margin-left: 20px;
+}
+
